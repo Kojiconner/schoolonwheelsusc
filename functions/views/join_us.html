@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/shared.css" rel="stylesheet" type="text/css">
+      <meta name="description" content="ITP 104 Final project join us page">
+      <meta name="keywords" content="HTML,CSS,ITP 104,final project join us page Conner">
+      <meta name="author" content="Conner Kojima">
+      <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+      <title>Conner Kojima - Final Project</title>
+	<style>
+		#content {
+		   width: 100%;
+           height: 1000px;
+           background: rgba(255,253,238,1);
+           opacity: 1;
+           position: absolute;
+           margin: 0 auto;
+           top: 0px;
+           left: 0px;
+           overflow: hidden;
+		}
+         #footer_wrapper {
+           top: 900px;
+         }
+
+        form {
+        	top: 87px;
+           	position: relative;
+           	margin: 0 auto;
+        }
+
+        .form_item {
+        	width: 600px;
+        	padding-bottom: 20px;
+        	padding-top: 20px;
+        	position: relative;
+           	margin: 0 auto;
+           	text-align: left;
+        }
+
+        .avail {
+        	width: 600px;
+        	padding-bottom: 10px;
+        	padding-top: 10px;
+        	position: relative;
+           	margin: 0 auto;
+           	text-align: left;
+        }
+
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div id="footer_wrapper">
+		<div id="footer">
+            <span id="fc_1">&#169; 2023 School on Wheels</span>
+            <span id="fc_2">Skid Row Learning Center<br>
+            600 East 7th Street, Ste 109 <br>
+            Los Angeles, CA 90021</span>
+            <span id="fc_3">(999) 999-9999
+            schoolonwheelsusc@gmail.com</span>
+         </div>
+        </div>
+
+	<form action="confirmation.html">
+		<div class="form_item">
+			<h1>Volunteer Form</h1>
+		</div>
+		<div class="form_item">
+			<label>First Name:</label>
+			<input type="text" placeholder="John">
+			<label>Last Name:</label>
+			<input type="text" placeholder="Doe">
+		</div>
+		<div class="form_item">
+			<label>Email:</label>
+			<input type="text" placeholder="Johndoe@gmail.com">
+		</div>
+		<div class="form_item">
+			<label>In-Person/Online Tutoring:</label>
+			<label for=“radio1”><input id=“radio1” type="radio"
+			name="radio‐name" value="R1">In Person Only</label>
+			<label for=“radio2”><input id=“radio2” type="radio"
+			name="radio‐name" value="R2">Online</label>
+			<label for=“radio3”><input id=“radio3” type="radio"
+			name="radio‐name" value="R2">Both</label>
+		</div>
+		<div class="avail">
+			<label>Monday Availability: </label>
+			<label for="m1">
+				<input id="m1" type="checkbox" name="cb1" value="m1">2:30-3:30 PM
+			</label>
+			<label for="m2">
+				<input id="m2" type="checkbox" name="cb2" value="m2">3:30-4:30 PM
+			</label>
+			<label for="m3">
+				<input id="m3" type="checkbox" name="cb3" value="m3">4:30-5:30 PM
+			</label>
+			</div>
+		<div class="avail">
+			<label>Tuesday Availability: </label>
+			<label for="t1">
+				<input id="t1" type="checkbox" name="cb1" value="t1">2:30-3:30 PM
+			</label>
+			<label for="t2">
+				<input id="t2" type="checkbox" name="cb2" value="t2">3:30-4:30 PM
+			</label>
+			<label for="t3">
+				<input id="t3" type="checkbox" name="cb3" value="t3">4:30-5:30 PM
+			</label>
+			</div>
+		<div class="avail">
+			<label>Wednesday Availability: </label>
+			<label for=w1>
+				<input id="w1" type="checkbox" name="cb1" value="w1">2:30-3:30 PM
+			</label>
+			<label for=w2>
+				<input id="w2" type="checkbox" name="cb2" value="w2">3:30-4:30 PM
+			</label>
+			<label for="w3">
+				<input id="w3" type="checkbox" name="cb3" value="w3">4:30-5:30 PM
+			</label>
+			</div>
+		<div class="avail">
+			<label>Thursday Availability: </label>
+			<label for=tr1>
+				<input id="tr1" type="checkbox" name="cb1" value="tr1">2:30-3:30 PM
+			</label>
+			<label for="tr2">
+				<input id="tr2" type="checkbox" name="cb2" value="tr2">3:30-4:30 PM
+			</label>
+			<label for="tr3">
+				<input id="tr3" type="checkbox" name="cb3" value="tr3">4:30-5:30 PM
+			</label>
+			</div>
+		<div class="avail">
+			<label>Friday Availability: </label>
+			<label for="f1">
+				<input id="f1" type="checkbox" name="cb1" value="f1">2:30-3:30 PM
+			</label>
+			<label for="f2">
+				<input id="f2" type="checkbox" name="cb2" value="f2">3:30-4:30 PM
+			</label>
+			<label for="f3">
+				<input id="f3" type="checkbox" name="cb3" value="f3">4:30-5:30 PM
+			</label>
+			</div>
+		<div class="form_item">
+			<textarea id="textarea‐id" rows="15" cols="70"
+			name="msg">Feel free to leave any additional comments here.</textarea>
+		</div>
+		<div class="form_item">
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</div>
+
+	</form>
+	<div id="header">
+        <div id="header_c">
+            <a id="logo_frame" href="index.html" target="_blank">
+               <div id="logo_img"></div>
+               <span id="logo_txt">School on Wheels USC</span>
+            </a>
+            <a id="about_us" href="about_us.html">About Us</a>
+            <a id="join_us" href="join_us.html">Join Us</a>
+            <a id="gallery" href="gallery.html">Gallery</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
