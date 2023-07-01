@@ -1,4 +1,188 @@
 <html>
+    <head>
+        <style>
+         #content {
+           height: 1559px;
+         }
+         #footer_wrapper {
+           top: 1463px;
+         }
+         #header_img{
+           width: 100%;
+           height: 619px;
+           background: url("images/header.png");
+           background-repeat: no-repeat;
+           background-position: center center;
+           background-size: cover;
+           opacity: 1;
+           position: absolute;
+           top: 82px;
+           left: 0px;
+           overflow: hidden;
+         }
+         #header_txt {
+           width: 556px;
+           height: 472px;
+           background: rgba(91,91,91,0.6600000262260437);
+           padding: 20px 20px;
+           margin: 12px;
+           opacity: 1;
+           position: absolute;
+           top: 138px;
+           left: 36px;
+           border-top-left-radius: 15px;
+           border-top-right-radius: 15px;
+           border-bottom-left-radius: 15px;
+           border-bottom-right-radius: 15px;
+           overflow: hidden;
+         }
+         #header_txt_title {
+           width: 522px;
+           color: rgba(255,255,255,1);
+           position: absolute;
+           top: 20px;
+           left: 20px;
+           font-family: Lato;
+           font-size: 80px;
+           opacity: 1;
+           text-align: left;
+         }
+         #header_txt_body {
+           width: 536px;
+           color: rgba(255,255,255,1);
+           position: absolute;
+           top: 248px;
+           left: 20px;
+           font-family: Lato;
+           font-size: 40px;
+           opacity: 1;
+           text-align: left;
+         }
+         #bridge_txt {
+           width: 100%;
+           padding: 20px;
+           color: rgba(0,0,0,1);
+           position: absolute;
+           top: 738px;
+           font-family: Lato;
+           font-size: 50px;
+           opacity: 1;
+           text-align: center;
+           margin: 0 auto;
+         }
+         #join_card {
+           width: 100%;
+           height: 520px;
+           background: rgba(246,246,246,1);
+           opacity: 1;
+           position: absolute;
+           top: 942px;
+           left: 0px;
+           overflow: hidden;
+         }
+         #join_card_2 {
+           width: 100%;
+           height: 493px;
+           background-repeat: no-repeat;
+           background-position: center center;
+           background-size: cover;
+           margin: 16px;
+           opacity: 1;
+           position: absolute;
+           top: 48px;
+           left: 36px;
+           overflow: hidden;
+         }
+         #join_card_3 {
+           width: 800px;
+           height: 493px;
+           background-repeat: no-repeat;
+           background-position: center center;
+           background-size: cover;
+           opacity: 1;
+           position: absolute;
+           top: 0px;
+           left: 0px;
+           overflow: hidden;
+         }
+         #img_2 {
+           width: 600px;
+           height: 400px;
+           background-repeat: no-repeat;
+           background-position: center center;
+           background-size: cover;
+           opacity: 1;
+           position: absolute;
+           top: 0px;
+           left: 5px;
+           overflow: hidden;
+         }
+         iframe { 
+            border: none; 
+         }
+         #join_card_3_c2 {
+           width: 351px;
+           height: 388px;
+           background-repeat: no-repeat;
+           background-position: center center;
+           background-size: cover;
+           margin: 14px;
+           opacity: 1;
+           position: absolute;
+           top: 15px;
+           left: 600px;
+/*           overflow: hidden;*/
+         }
+         #join_card_3_c2_title {
+           width: 551px;
+           color: rgba(0,0,0,1);
+           position: absolute;
+           top: 0px;
+           left: 0px;
+           font-family: Lato;
+           font-weight: Bold;
+           font-size: 60px;
+           opacity: 1;
+           text-align: left;
+         }
+         #join_card_3_c2_body {
+           width: 551px;
+           color: rgba(0,0,0,1);
+           position: absolute;
+           top: 161px;
+           left: 0px;
+           font-family: Lato;
+           font-size: 40px;
+           opacity: 1;
+           text-align: left;
+         }
+         #join_card_3_c2_button {
+           width: 492px;
+           height: 62px;
+           background: rgba(83,77,77,0.8100000023841858);
+           opacity: 1;
+           position: absolute;
+           top: 273px;
+           left: 29px;
+           border-top-left-radius: 10px;
+           border-top-right-radius: 10px;
+           border-bottom-left-radius: 10px;
+           border-bottom-right-radius: 10px;
+           overflow: hidden;
+         }
+         #join_card_3_c2_button_text {
+           width: 314px;
+           color: rgba(255,255,255,1);
+           position: absolute;
+           top: 3px;
+           left: 117px;
+           font-family: Lato;
+           font-size: 50px;
+           opacity: 1;
+           text-align: left;
+         }
+      </style>
+    </head>
     <body>
       <h1>{{db_result.Heading}}</h1>
 
@@ -14,5 +198,52 @@
          <input type="submit" value="Submit">
         </fieldset>
      </form>
+     <div id="content">
+         <div id="footer_wrapper">
+         <div id="footer">
+            <span id="fc_1">&#169; 2023 School on Wheels</span>
+            <span id="fc_2">Skid Row Learning Center<br>
+            600 East 7th Street, Ste 109 <br>
+            Los Angeles, CA 90021</span>
+            <span id="fc_3">(999) 999-9999
+            schoolonwheelsusc@gmail.com</span>
+         </div>
+         </div>
+
+         <div id="header_img"></div>
+
+         <div id="header_txt"><span id="header_txt_title">Education for Everyone</span><span id="header_txt_body">Championing the education and mentorship of children experiencing homelessness in the Skid Row community</span></div>
+
+         <span id="bridge_txt">1 in 20 children in California do not have a home</span>
+
+         <div id="join_card">
+            <div id="join_card_2">
+               <div id="join_card_3">
+                  <!-- <div id="img_2"></div> -->
+                  <iframe id="img_2" src="https://player.vimeo.com/video/328286623?h=41d3338e08&title=0&byline=0&portrait=0" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+               </div>
+               <div id="join_card_3_c2">
+                  <span id="join_card_3_c2_title">Make a Difference Today!</span>
+                  <span id="join_card_3_c2_body">Getting started is quick and easy</span>
+                  <div id="join_card_3_c2_button">
+                     <a id="join_card_3_c2_button_text" href="https://schoolonwheels.org/apply-to-be-a-volunteer/application-2/">Get Started</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div id="header">
+         <div id="header_c">
+            <a id="logo_frame" href="index.html" target="_blank">
+               <div id="logo_img"></div>
+               <span id="logo_txt">School on Wheels USC</span>
+            </a>
+            <a id="about_us" href="about_us.html">About Us</a>
+            <a id="join_us" href="join_us.html">Join Us</a>
+            <a id="gallery" href="gallery.html">Gallery</a>
+         </div>
+         </div>
+      </div>
     </body>
 </html>
